@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Tổng quan về các selector */
+        /* Selector elements */
+        /* Universal */
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        p {
+            text-align: center;
+            color: rebeccapurple;
+        }
+        /* class */
+        .test_class {
+            text-align: right;
+            color:orchid;
+        }
+        h2.test_class {
+            padding: 8px;
+            color: red;
+        }
+        /* Grouping selector */
+        h3, h4, h5 {
+            text-transform: uppercase;
+            color: blue;
+        }
+        /* ID */
+        #the_div p{
+            text-align:left ;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <p>Dòng văn bản thứ nhất</p>
+    <p>Dòng văn bản thứ 2</p>
+    <p>Dòng văn bản thứ 3</p>
+    <h2 class="test_class">Cũng là class"test_class" nhưng là thẻ h2</h2>
+    <p class="test_class">Đây là dòng văn bản test selector class</p>
+    <p class="test_class">Đây là dòng văn bản 2 test selector class</p>
+
+    <h3>Thẻ h3</h3>
+    <h4>Thẻ h4</h4>
+    <h5>Thẻ h5</h5>
+
+    <div id="the_div">
+        <p>"Canvas" là một thẻ HTML được sử dụng để vẽ đồ họa 2D và 3D trên trang web.
+        </p>
+    </div>
+</body>
+</html>
