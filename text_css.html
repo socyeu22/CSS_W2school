@@ -37,15 +37,32 @@
         }
         h3.overline {
             text-decoration: overline red double 8px;
+            text-transform: lowercase;
         }
         h3.line-through {
             text-decoration: line-through blue dashed;
+            /* Viết hoa chữ cái đầu */
+            text-transform: capitalize;
         }
         h3.underline {
             text-decoration: underline orangered wavy;
+            text-transform: uppercase;
         }
         h3.ex {
             text-decoration: overline underline line-through green solid;
+        }
+        p.spacing {
+            text-indent: 50px;
+            letter-spacing: 2px;
+            line-height: 1.5;
+            text-align: justify;
+            word-spacing: 10px;
+            white-space: nowrap;
+
+        }
+        h1.text_shadow {
+            color: red;
+            text-shadow: 2px 2px #cccccc;
         }
     </style>
 </head>
@@ -73,9 +90,17 @@
 
     <h2>vertical-align: sup:</h2>
     <p>An <img class="e" src="sqpurple.gif" width="9" height="9"> image with a super alignment.</p>
-    <h3 class="overline">Overline text decoration</h3>
+    <h3 class="overline lowercase">OVERLINE TEXT DECORATION</h3>
     <h3 class="line-through">Line-through text decoration</h3>
-    <h3 class="underline">Underline text decoration</h3>
+    <h3 class="underline uppercase">Underline text decoration</h3>
     <h3 class="ex">Overline and underline text decoration.</h3>
+    <p class="spacing">
+        The letter-spacing property is used to specify the space between the characters in a text.
+
+        The following example demonstrates how to increase or decrease the space between characters:
+    </p>
+    <h1 class="text_shadow">
+        text_shadow test
+    </h1>
 </body>
 </html>
