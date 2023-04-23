@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div.margin_test {
+            background: rebeccapurple;
+            border: 1px solid orange;
+            margin: 200px 100px 50px 20px;
+            /* Hoặc
+            margin-top
+            margin-right
+            margin-bottom
+            margin-left
+            */
+        }
+        div.margin_inherit {
+            border: 1px solid orange;
+            margin-left: 50px;
+        }
+        /* Thuộc tính inherit cho phép kế thừa lại thuộc tính của thẻ cha */
+        p.inherit {
+            margin-left: inherit;
+            border: inherit ;
+        }
+        /* Đôi khi hai lề gộp thành một lề duy nhất.
+        Nếu không có thuộc tính display: inline-block;
+        Nhưng điều này chỉ sảy ra với lề trên và dưới */
+        h1 {
+        margin: 0 0 50px 0;
+        width: 100%;
+        /* display: inline-block; */
+        }
+
+        h2 {
+        margin: 20px 0 0 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="margin_test">
+        With CSS, you have full control over the margins. There are properties for setting the margin for each side of an element (top, right, bottom, and left).
+    </div>
+    <div class="margin_inherit">
+        <p class="inherit">ở đây cho phép thẻ p kế thừa thuộc tính margin của thẻ div cha</p>
+    </div>
+    <h1>H1</h1>
+    <h2>H2</h2>
+
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        div.height_width {
+            background-color: bisque;
+            height: 300px;
+            width: 200px;
+            /* width: 50%; */
+        }
+        #max-width {
+            max-width: 400px;
+            background-color: aqua;
+            padding: 15px;
+            border: 10px solid rebeccapurple;
+            margin: 20px;
+            outline: solid 10px #4CAF50;
+        }
+        .box_model {
+            width: 320px;
+            background-color: bisque;
+            height: 200px;
+            border: solid 10px;
+            padding: 5px;
+        }
+        /* Thuộc tính outline để bao quanh bên ngoài cả border */
+        p {
+            width: 400px;
+            background-color: aqua;
+            padding: 15px;
+            border: 10px solid rebeccapurple;
+            margin: 20px;
+            outline: double 10px #deba09;
+            /* outline-offset là khoảng cách giữa border và outline */
+            outline-offset: 15px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="height_width">
+
+    </div>
+    <img src="https://www.w3schools.com/css/klematis4_big.jpg" alt="Hình ảnh ở w3school">
+    <div class="box_model"></div>   
+    <div id="max-width">
+        Thuộc max-widthtính được sử dụng để đặt chiều rộng tối đa của một phần tử.
+        Có max-width thể chỉ định giá trị chiều dài , như px, cm, v.v. hoặc theo phần trăm (%) của khối chứa hoặc đặt thành không (đây là mặc định. Có nghĩa là không có chiều rộng tối đa).
+    </div>
+    <p>
+
+    </p>
+</body>
+</html>

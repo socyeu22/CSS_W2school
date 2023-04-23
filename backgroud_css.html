@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: bisque;
+            position: relative;
+
+        }
+        div.color_test {
+            width: 100%;
+            height: 200px;
+            /* background-color: #ff0000; */
+            /* background-color: red; */
+            background-color: rgb(255,0,0);
+            opacity: 0.4;
+        }
+        h1 {
+            background-color: rgba(0,255,0,0.6);
+        }
+        div.img_backgroud {
+            width: 100%;
+            height: 200px;
+            background-image: url('https://cdn.24h.com.vn/upload/2-2023/images/2023-04-23/Nong-bang-xep-hang-Ngoai-hang-Anh-Liverpool-thang-kich-tinh-kem-top-4-may-diem-9-1682197975-466-width740height493.jpg');
+            background-repeat: no-repeat;
+            background-size: 100%;
+            /* background-repeat: repeat;
+            background-size: 50%; */
+        }
+        div.backgroud_attachment {
+            display: block;
+            width: 100%;
+            height: 5000px;
+            background-color: aqua;
+            background-image: url('https://cdn.24h.com.vn/upload/2-2023/images/2023-04-23/Nong-bang-xep-hang-Ngoai-hang-Anh-Liverpool-thang-kich-tinh-kem-top-4-may-diem-9-1682197975-466-width740height493.jpg');
+            background-repeat: no-repeat;
+            background-position: top right;
+            background-attachment: fixed;
+            /* background-attachment: scroll; */
+        }
+    </style>
+
+    <div class="color_test"></div>
+    <h1>Test RGBA</h1>
+    <div class="img_backgroud"></div>
+    <div class="img_backgroud attachment"></div>
+    <div class="backgroud_attachment"></div>
+</head>
+<body>
+    
+</body>
+</html>
